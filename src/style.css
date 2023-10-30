@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+/* Style for the entire UserTable component */
+.UserTable {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fffcfc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the search input */
+.UserTable input[type='text'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style for the table */
+.UserTable table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style for the table header */
+.UserTable th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for the table rows */
+.UserTable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for the selected table rows */
+.UserTable tr.selected {
+  background-color: #f0f0f0;
+}
+.UserTable .pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.UserTable .pagination button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.UserTable .pagination button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the current page number */
+.UserTable .pagination button.current {
+  background-color: #0056b3;
+}
+
+/* Style for "First" and "Last" buttons */
+.UserTable .pagination button.firstlast {
+  background-color: #007bff;
+}
+
+.UserTable .pagination button.firstlast:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the "Delete" and "Edit" buttons */
+.UserTable button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.UserTable button.edit {
+  background-color: #5bc0de;
+}
+
+.UserTable button:hover {
+  background-color: #c9302c;
+}
+
+.UserTable button.edit:hover {
+  background-color: #46b8da;
+}
+
+.UserTable .pagination button.current {
+  background-color: #637990;
+  color: white;
+}
